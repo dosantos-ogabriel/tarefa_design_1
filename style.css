@@ -1,6 +1,10 @@
 body, a {
   background: black;
   color: white;
+
+}
+li {
+  list-style-type: none;
 }
 .container {
   display: flex;
@@ -17,4 +21,9 @@ body, a {
 }
 body {
   margin: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
